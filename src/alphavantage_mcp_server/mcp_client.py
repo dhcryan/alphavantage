@@ -11,7 +11,7 @@ class AlphaVantageMCPClient:
     """AlphaVantage MCP 서버와 통신하는 클라이언트"""
     
     def __init__(self):
-        self.api_key = "CS0LBSPNM72HSNQL"
+        self.api_key = "384RIRA03BKUSJSV"
     
     async def call_tool(self, tool_name: str, params: Dict[str, Any]) -> Dict[str, Any]:
         """MCP 도구 호출"""

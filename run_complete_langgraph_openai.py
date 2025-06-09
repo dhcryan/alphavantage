@@ -129,7 +129,7 @@ async def enhanced_fetch_data_node(state: CompleteChatbotState) -> CompleteChatb
     print(f"🔄 Step 2: 강화된 데이터 조회 - {intent} for {symbol}")
     
     # API 키 설정
-    os.environ['ALPHAVANTAGE_API_KEY'] = "CS0LBSPNM72HSNQL"
+    os.environ['ALPHAVANTAGE_API_KEY'] = "384RIRA03BKUSJSV"
     
     try:
         if intent == "stock_quote":

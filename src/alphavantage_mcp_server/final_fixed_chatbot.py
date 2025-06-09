@@ -174,7 +174,7 @@ class SimpleRuleBasedClassifier:
 
 class FinalDataFetcher:
     def __init__(self):
-        self.api_key = "CS0LBSPNM72HSNQL"
+        self.api_key = "384RIRA03BKUSJSV"
         os.environ['ALPHAVANTAGE_API_KEY'] = self.api_key
     
     async def fetch_data(self, state: AdvancedChatbotState) -> AdvancedChatbotState:

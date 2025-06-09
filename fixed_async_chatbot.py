@@ -11,7 +11,7 @@ from alphavantage_mcp_server.api import fetch_quote, fetch_company_overview
 
 class FixedAsyncChatbot:
     def __init__(self):
-        self.api_key = "CS0LBSPNM72HSNQL"
+        self.api_key = "384RIRA03BKUSJSV"
         # 환경변수 설정
         os.environ['ALPHAVANTAGE_API_KEY'] = self.api_key
     
