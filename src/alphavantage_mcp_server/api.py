@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
+API_KEY = "CS0LBSPNM72HSNQL"
 if not API_KEY:
     raise ValueError("ALPHAVANTAGE_API_KEY environment variable required")
 
