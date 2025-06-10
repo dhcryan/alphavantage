@@ -83,6 +83,8 @@ python run_real_api_diverse_fixed.py
 
 ## 🛡️ 완전방어 시스템
 
+금융 API에서 발생하는 None 값, 빈 문자열, 타입 변환 오류를 완전히 차단하는 안전장치
+
 ### 핵심 방어 함수들
 
 ```python
@@ -231,7 +233,7 @@ print(f"총 비용: ${stats['total_cost_usd']:.6f}")
 
 ## 🎯 프로젝트 개요
 
-**완전방어 AlphaVantage AI Chatbot**은 LangGraph 워크플로우와 MCP(Model Context Protocol) 서버를 활용한 차세대 금융 데이터 분석 시스템입니다. 실시간 금융 API와 OpenAI의 자연어 처리를 결합하여 안전하고 정확한 투자 정보를 제공합니다.
+**AlphaVantage AI Chatbot**은 LangGraph 워크플로우와 MCP(Model Context Protocol) 서버를 활용한 차세대 금융 데이터 분석 시스템입니다. 실시간 금융 API와 OpenAI의 자연어 처리를 결합하여 안전하고 정확한 투자 정보를 제공합니다.
 
 ## 🏗️ 핵심 아키텍처
 
@@ -323,7 +325,7 @@ async def force_real_api_node(state: RealAPIState) → RealAPIState:
 ### 3. 실제 API 활용 최적화
 **다중 API 키 전략**
 ```python
-api_keys = ['IZLU4YURP1R1YVYW', 'demo']  # 순환 사용
+api_keys = ['IZ--------', 'demo']  # 순환 사용
 for i, api_key in enumerate(api_keys):
     os.environ['ALPHAVANTAGE_API_KEY'] = api_key
     result = await api_call()
