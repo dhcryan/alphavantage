@@ -6,7 +6,7 @@ from .final_fixed_chatbot import create_final_chatbot_graph
 class FinalFixedChatbot:
     def __init__(self, use_openai=False):  # 기본값을 False로 변경
         # API 키 환경변수 설정
-        os.environ['ALPHAVANTAGE_API_KEY'] = "384RIRA03BKUSJSV"
+        os.environ['ALPHAVANTAGE_API_KEY'] = "IZLU4YURP1R1YVYW"
         
         # LangGraph 워크플로우 생성
         self.graph = create_final_chatbot_graph(use_openai=use_openai)

@@ -1,7 +1,7 @@
 import os
 
 class Config:
-    ALPHAVANTAGE_API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", "384RIRA03BKUSJSV")
+    ALPHAVANTAGE_API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", "IZLU4YURP1R1YVYW")
     BASE_URL = "https://www.alphavantage.co/query"
     TIMEOUT = 10  # seconds
     MAX_RETRIES = 3

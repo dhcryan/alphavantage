@@ -44,7 +44,7 @@ async def comprehensive_fetch_data_node(state: EnhancedFinancialState) -> Enhanc
     print(f"🔄 Step 2: 포괄적 데이터 조회 - {intent} for {symbol}")
     
     # API 키 설정
-    os.environ['ALPHAVANTAGE_API_KEY'] = "384RIRA03BKUSJSV"
+    os.environ['ALPHAVANTAGE_API_KEY'] = "IZLU4YURP1R1YVYW"
     
     try:
         main_data = None

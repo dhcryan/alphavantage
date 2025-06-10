@@ -25,7 +25,7 @@ async def debug_api_functions():
     print("\n=== 비동기 테스트 호출 ===")
     
     # 환경변수 설정
-    os.environ['ALPHAVANTAGE_API_KEY'] = "384RIRA03BKUSJSV"
+    os.environ['ALPHAVANTAGE_API_KEY'] = "IZLU4YURP1R1YVYW"
     
     try:
         print("await fetch_quote('AAPL') 테스트...")
