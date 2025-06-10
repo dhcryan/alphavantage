@@ -2,7 +2,7 @@
 
 ## 🎯 개요
 
-이 프로젝트는 **완전방어 AlphaVantage AI Chatbot**으로, 실제 금융 API와 OpenAI를 결합한 LangGraph 기반의 지능형 금융 분석 시스템입니다.
+이 프로젝트는 **AlphaVantage AI Chatbot**으로, 실제 금융 API와 OpenAI를 결합한 LangGraph 기반의 지능형 금융 분석 시스템입니다.
 
 ## 📁 핵심 파일 구조
 
